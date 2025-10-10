@@ -1,0 +1,132 @@
+/* -------------------------------------------------- Font Started ------------------------------------------- */
+
+@font-face {
+    font-family: 'inter';
+    src: url(../Assets/Fonts/Inter/static/Inter_18pt-Regular.ttf);
+}
+
+.inter {
+    font-family: 'inter';
+}
+
+/* --------------------------------------------------- Font Ended ------------------------------------------ */
+
+
+/* --------------------------------------------- bg-color started -------------------------------------------- */
+
+:root {
+    
+    --bg-orange: #B84904;
+    --bg-yellow: #F3C200;
+    --bg-black: #000000;
+    --bg-white: #f2f2f2;
+    --bg-pure-white: #ffffff;
+    --bg-cream: #FFF6D4;
+    --bg-green: #006012;
+    --bg-gray: #737373;
+    --bg-blue: #006D86;
+    
+}
+
+.bg-blue-gradient{
+    background: linear-gradient(248.24deg, #163E74 34.86%, #0078AA 99.26%);
+}
+
+.bg--pure-white{
+    background-color: var(--bg--pure-white);
+}
+
+.bg-blue{
+    background-color: var(--bg-blue);
+}
+
+.bg-orange {
+    background-color: var(--bg-orange);
+}
+
+.bg-green{
+    background-color: var(--bg-green);
+}
+
+.bg-cream{
+    background-color: var(--bg-cream);
+}
+
+.bg-yellow {
+    background-color: var(--bg-yellow);
+}
+
+.bg-white {
+    background-color: var(--bg-white);
+}
+
+.bg-black {
+    background-color: var(--bg-black);
+}
+
+/* --------------------------------------------- bg-color ended -------------------------------------------- */
+
+
+
+/* --------------------------------------------- color started -------------------------------------------- */
+
+:root {
+    
+    --color-orange: #B84904;
+    --color-yellow: #F3C200;
+    --color-black: #000000;
+    --color-white: #f2f2f2;
+    --color-pure-white: #ffffff;
+    --color-cream: #FFF6D4;
+    --color-green: #006012;
+    --color-gray: #737373;
+    --color-blue: #006D86;
+    
+}
+
+.color--pure-white{
+    color: var(--color--pure-white);
+}
+
+.color-blue{
+    color: var(--color-blue);
+}
+
+.color-orange {
+    color: var(--color-orange);
+}
+
+.color-green{
+    color: var(--color-green);
+}
+
+.color-cream{
+    color: var(--color-cream);
+}
+
+.color-yellow {
+    color: var(--color-yellow);
+}
+
+.color-white {
+    color: var(--color-white);
+}
+
+.color-black {
+    color: var(--color-black);
+}
+
+/* --------------------------------------------- color ended -------------------------------------------- */
+
+
+/* --------------------------------------------- z-index started -------------------------------------------- */
+
+#z-1 {
+    z-index: 1000 !important;
+}
+
+#z-0 {
+    z-index: -1000 !important;
+}
+
+/* --------------------------------------------- z-index ended -------------------------------------------- */
