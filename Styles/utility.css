@@ -24,6 +24,8 @@
     --bg-cream: #FFF6D4;
     --bg-green: #006012;
     --bg-gray: #737373;
+    --bg-light-gray: #EAEAEA;
+    --bg-dark-blue: #046FA2;
     --bg-blue: #006D86;
     
 }
@@ -60,6 +62,14 @@
     background-color: var(--bg-white);
 }
 
+.dark-blue {
+    background-color: var(--bg-dark-blue);
+}
+
+.light-gray {
+    background-color: var(--bg-light-gray);
+}
+
 .bg-black {
     background-color: var(--bg-black);
 }
@@ -80,6 +90,8 @@
     --color-cream: #FFF6D4;
     --color-green: #006012;
     --color-gray: #737373;
+    --color-light-gray: #EAEAEA;
+    --color-dark-blue: #046FA2;
     --color-blue: #006D86;
     
 }
@@ -110,6 +122,15 @@
 
 .color-white {
     color: var(--color-white);
+}
+
+
+.dark-blue {
+    color: var(--color-dark-blue);
+}
+
+.light-gray {
+    color: var(--color-light-gray);
 }
 
 .color-black {
