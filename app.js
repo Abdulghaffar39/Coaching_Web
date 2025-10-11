@@ -1,11 +1,16 @@
 
+
+
 function menu() {
 
-    let nav_2 = document.getElementById('nav_2');
-    let menu = document.getElementById('parent_4');
-    let cut = document.getElementById('parent_5');
+    let navbar = document.getElementById('nav2Box');
+    let dropDown = document.getElementById('dropDown');
+    let menu = document.getElementById('menu');
+    let cut = document.getElementById('cut');
 
-    nav_2.style.display = 'none';
+    navbar.style.backgroundColor = '#163E74';
+    dropDown.style.backgroundColor = '#163E74';
+    dropDown.style.display = 'flex';
     menu.style.display = 'none';
     cut.style.display = 'block';
 
@@ -15,11 +20,13 @@ function menu() {
 
 function cut() {
 
-    let nav_2 = document.getElementById('nav_2');
-    let menu = document.getElementById('parent_4');
-    let cut = document.getElementById('parent_5');
+    let navbar = document.getElementById('nav2Box');
+    let dropDown = document.getElementById('dropDown');
+    let menu = document.getElementById('menu');
+    let cut = document.getElementById('cut');
 
-    nav_2.style.display = 'block';
+    navbar.style.backgroundColor = 'transparent';
+    dropDown.style.display = 'none';
     menu.style.display = 'block';
     cut.style.display = 'none';
 
