@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -673,6 +673,7 @@ main .testimonials .container_2 .parent_1 .child_2 .Passing p {
 
 }
 
+
 main .testimonials .container_2 .parent_1 .child_3 {
 
     width: 38%;
@@ -680,6 +681,81 @@ main .testimonials .container_2 .parent_1 .child_3 {
     border-radius: 24px;
     background-color: var(--bg-pure-white);
 }
+
+main .testimonials .container_2 .parent_1 .child_3 {
+
+    width: 38%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--bg-pure-white);
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan {
+
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px 24px 16px;
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan .detail_1 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan .detail_2 {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan .detail_2 .img_farhan {
+
+    width: 32px;
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan .detail_2 .img_farhan img {
+
+    width: 100%;
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan .detail_2 .para_farhan {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan .detail_2 .para_farhan h1 {
+
+    margin: 0;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+main .testimonials .container_2 .parent_1 .child_3 .farhan .detail_2 .para_farhan p {
+
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+}
+
+
+
+
 
 main .testimonials .container_2 .parent_2 {
 
@@ -690,12 +766,54 @@ main .testimonials .container_2 .parent_2 {
     align-items: center;
 }
 
+
 main .testimonials .container_2 .parent_2 .child_1 {
 
     width: 25%;
     height: 233px;
     border-radius: 24px;
-    background-color: var(--color-blue);
+    background-color: var(--bg-blue);
+}
+
+main .testimonials .container_2 .parent_2 .child_1 .Experienced {
+
+    padding: 24px 33px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+main .testimonials .container_2 .parent_2 .child_1 .Experienced h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+
+}
+
+main .testimonials .container_2 .parent_2 .child_1 .Experienced p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-light-gray);
+
+}
+
+
+
+main .testimonials .container_2 .parent_2 .child_2 {
+
+    width: 38%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--bg-pure-white);
 }
 
 main .testimonials .container_2 .parent_2 .child_2 {
@@ -706,6 +824,71 @@ main .testimonials .container_2 .parent_2 .child_2 {
     background-color: var(--bg-pure-white);
 }
 
+main .testimonials .container_2 .parent_2 .child_2 .hussain {
+
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px 24px 16px;
+}
+
+main .testimonials .container_2 .parent_2 .child_2 .hussain .detail_1 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+}
+
+main .testimonials .container_2 .parent_2 .child_2 .hussain .detail_2 {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+main .testimonials .container_2 .parent_2 .child_2 .hussain .detail_2 .img_hussain {
+
+    width: 32px;
+}
+
+main .testimonials .container_2 .parent_2 .child_2 .hussain .detail_2 .img_hussain img {
+
+    width: 100%;
+}
+
+main .testimonials .container_2 .parent_2 .child_2 .hussain .detail_2 .para_hussain {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+main .testimonials .container_2 .parent_2 .child_2 .hussain .detail_2 .para_hussain h1 {
+
+    margin: 0;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+main .testimonials .container_2 .parent_2 .child_2 .hussain .detail_2 .para_hussain p {
+
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+}
+
+
+
 main .testimonials .container_2 .parent_2 .child_3 {
 
     width: 32%;
@@ -714,7 +897,36 @@ main .testimonials .container_2 .parent_2 .child_3 {
     background-color: var(--bg-orange);
 }
 
+main .testimonials .container_2 .parent_2 .child_3 .students {
 
+    padding: 24px 33px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+main .testimonials .container_2 .parent_2 .child_3 .students h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+
+}
+
+main .testimonials .container_2 .parent_2 .child_3 .students p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-light-gray);
+
+}
 
 
 /* ---------------------------- Home testimonials ended ----------------------------- */
@@ -749,6 +961,74 @@ main .testimonials .container_2 .parent_2 .child_3 {
     }
 
     /* ---------------------------- Home Container_1 Ended ----------------------------- */
+
+}
+
+
+@media (max-width: 1250px) {
+
+    /* ---------------------------- Home testimonials started ----------------------------- */
+
+    main .testimonials .container_2 .parent_1 .child_1 .Ayesha {
+
+        padding: 6px 0px 0px 10px;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_2 .Passing {
+
+        padding: 6px 0px 0px 10px;
+
+        gap: 50px;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_2 .Passing h1 {
+
+        font-size: 26px;
+    }
+
+
+    main .testimonials .container_2 .parent_1 .child_3 .farhan {
+
+        padding: 6px 4px 0px 10px;
+    }
+
+
+    main .testimonials .container_2 .parent_2 .child_1 .Experienced {
+
+        padding: 6px 0px 0px 10px;
+
+        gap: 30px;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_1 .Experienced h1 {
+
+        font-size: 26px;
+    }
+
+
+    main .testimonials .container_2 .parent_2 .child_2 .hussain {
+
+        padding: 6px 0px 0px 10px;
+
+        gap: 20px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_2 .child_3 .students {
+
+        padding: 6px 4px 0px 10px;
+
+        gap: 53px;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_3 .students h1 {
+
+        font-size: 26px;
+    }
+
+    /* ---------------------------- Home testimonials ended ----------------------------- */
+
 
 }
 
@@ -998,6 +1278,159 @@ main .testimonials .container_2 .parent_2 .child_3 {
     }
 
     /* ---------------------------- Home testimoials ended ----------------------------- */
+
+
+
+
+    /* ---------------------------- Home testimonials started ----------------------------- */
+
+    main .testimonials .container_2 .parent_1 {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_1 .child_1 {
+
+        width: 100%;
+        height: 180px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_1 .Ayesha {
+
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_1 .child_2 {
+
+        width: 100%;
+        height: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_2 .Passing {
+
+        width: 100%;
+        padding: 10px 10px;
+
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+
+
+
+    main .testimonials .container_2 .parent_1 .child_3 {
+
+        width: 100%;
+        height: 180px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_3 .farhan {
+
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_2 {
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_2 .child_1 {
+
+        width: 100%;
+        height: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_1 .Experienced {
+
+        width: 100%;
+        padding: 10px 10px;
+
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_2 .child_2 {
+
+        width: 100%;
+        height: 180px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_2 .hussain {
+
+        display: flex;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_2 .child_3 {
+
+        width: 100%;
+        height: 100px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_3 .students {
+
+        width: 100%;
+        padding: 10px 10px;
+
+        display: flex;
+        justify-content: space-around;
+        gap: 0px;
+    }
+
+
+
+    /* ---------------------------- Home testimonials ended ----------------------------- */
+
 
 
 }
@@ -1387,6 +1820,57 @@ main .testimonials .container_2 .parent_2 .child_3 {
 
 
     /* ---------------------------- Home Container_1 Ended ----------------------------- */
+
+
+
+    /* ---------------------------- Home testimonials started ----------------------------- */
+
+    main .testimonials .container_2 .parent_1 .child_1 {
+
+        height: 280px;
+        padding: 10px 10px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_1 .child_2 {
+
+        height: 180px;
+        padding: 10px 10px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_1 .child_3 {
+
+        height: 280px;
+        padding: 10px 10px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_2 .child_1 {
+
+        height: 180px;
+        padding: 10px;
+    }
+
+
+
+    main .testimonials .container_2 .parent_2 .child_2 {
+
+        height: 280px;
+        padding: 10px 10px;
+    }
+
+
+    main .testimonials .container_2 .parent_2 .child_3 {
+
+        height: 180px;
+    }
+
+
+    /* ---------------------------- Home testimonials ended ----------------------------- */
 
 
 }
