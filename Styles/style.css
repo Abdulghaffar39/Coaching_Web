@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid white;
+    border: 1px solid black;
 }
 
 
@@ -308,7 +308,7 @@ main .Benefits .container_1 .parent_1 {
 
 main .Benefits .container_1 .parent_2 {
 
-    width: 40%;
+    width: 100%;
     margin: 0 auto;
     font-size: 40px;
     font-weight: 700;
@@ -461,6 +461,264 @@ main .Benefits .container_2 .parent_2 .child_3 {
 
 /* ---------------------------- Home Benefits ended ----------------------------- */
 
+
+/* ---------------------------- Home testimonials started ----------------------------- */
+
+
+main .testimonials {
+
+    width: 100%;
+    margin: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+main .testimonials .container_1 {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main .testimonials .container_1 .parent_1 {
+
+    width: 120px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -4%;
+    border-radius: 42px;
+    color: var(--bg-blue);
+    background-color: var(--color-cream);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main .testimonials .container_1 .parent_2 {
+
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -4%;
+    color: var(--color-black);
+}
+
+main .testimonials .container_1 .parent_2 span {
+
+    color: var(--color-gray);
+}
+
+main .testimonials .container_1 .parent_3 {
+
+    width: 36%;
+    margin: 0 auto;
+}
+
+main .testimonials .container_1 .parent_3 p {
+
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: var(--color-gray);
+
+}
+
+
+
+main .testimonials .container_2 {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+main .testimonials .container_2 .parent_1 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .testimonials .container_2 .parent_1 .child_1 {
+
+    width: 32%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--bg-pure-white);
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha {
+
+    display: flex;
+    flex-direction: column;
+    padding: 24px 32px 24px 16px;
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha .detail_1 {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha .detail_2 {
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 12px;
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha .detail_2 .img_ayesha {
+
+    width: 32px;
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha .detail_2 .img_ayesha img {
+
+    width: 100%;
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha .detail_2 .para_ayesha {
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha .detail_2 .para_ayesha h1 {
+
+    margin: 0;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+main .testimonials .container_2 .parent_1 .child_1 .Ayesha .detail_2 .para_ayesha p {
+
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+}
+
+main .testimonials .container_2 .parent_1 .child_2 {
+
+    width: 25%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--bg-green);
+}
+
+main .testimonials .container_2 .parent_1 .child_2 .Passing {
+
+    padding: 24px 33px 24px 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+main .testimonials .container_2 .parent_1 .child_2 .Passing h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+
+}
+
+main .testimonials .container_2 .parent_1 .child_2 .Passing p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-light-gray-gray);
+
+}
+
+main .testimonials .container_2 .parent_1 .child_3 {
+
+    width: 38%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--bg-pure-white);
+}
+
+main .testimonials .container_2 .parent_2 {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .testimonials .container_2 .parent_2 .child_1 {
+
+    width: 25%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--color-blue);
+}
+
+main .testimonials .container_2 .parent_2 .child_2 {
+
+    width: 38%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--bg-pure-white);
+}
+
+main .testimonials .container_2 .parent_2 .child_3 {
+
+    width: 32%;
+    height: 233px;
+    border-radius: 24px;
+    background-color: var(--bg-orange);
+}
+
+
+
+
+/* ---------------------------- Home testimonials ended ----------------------------- */
+
 @media (max-width: 1440px) {
 
     /* ---------------------------- Home Container_1 Started ----------------------------- */
@@ -589,6 +847,16 @@ main .Benefits .container_2 .parent_2 .child_3 {
         gap: 16px;
     }
 
+    main .Benefits .container_1 .parent_2 {
+
+        width: 100%;
+    }
+
+    main .Benefits .container_1 .parent_3 {
+
+        width: 100%;
+    }
+
 
     main .Benefits .container_2 .parent_1 {
 
@@ -599,6 +867,17 @@ main .Benefits .container_2 .parent_2 .child_3 {
         flex-direction: column;
         justify-content: space-around;
         gap: 10px;
+    }
+
+
+    main .Benefits .container_2 div div {
+
+        margin-top: 10px;
+    }
+
+    main .Benefits .container_2 .parent_1 #child_4 {
+
+        display: block;
     }
 
     main .Benefits .container_2 .parent_1 .child_1 {
@@ -633,7 +912,7 @@ main .Benefits .container_2 .parent_2 .child_3 {
         justify-content: start;
         align-items: start;
         gap: 16px;
-    } 
+    }
 
 
     main .Benefits .container_2 .parent_2 {
@@ -711,6 +990,16 @@ main .Benefits .container_2 .parent_2 .child_3 {
     /* ---------------------------- Home Benefits ended ----------------------------- */
 
 
+    /* ---------------------------- Home testimoials ended ----------------------------- */
+
+    main .testimonials .container_1 .parent_3 {
+
+        width: 100%;
+    }
+
+    /* ---------------------------- Home testimoials ended ----------------------------- */
+
+
 }
 
 
@@ -721,7 +1010,7 @@ main .Benefits .container_2 .parent_2 .child_3 {
 
     header {
 
-        height: 800px;
+        height: 900px;
         border-radius: 56px;
     }
 
@@ -893,6 +1182,28 @@ main .Benefits .container_2 .parent_2 .child_3 {
     /* ---------------------------- Home Container_1 Ended ----------------------------- */
 
     /* ---------------------------- Home Header Ended ----------------------------- */
+
+
+    /* ---------------------------- Home main Ended ----------------------------- */
+
+    main {
+
+        padding: 0px 10px;
+    }
+
+
+    main .Benefits .container_1 .parent_2 br {
+
+        display: none;
+    }
+
+    main .Benefits .container_1 .parent_2 {
+
+        font-size: 36px;
+    }
+
+
+    /* ---------------------------- Home main Ended ----------------------------- */
 }
 
 
@@ -902,7 +1213,7 @@ main .Benefits .container_2 .parent_2 .child_3 {
 
     header {
 
-        height: 770px;
+        height: 800px;
         border-radius: 26px;
     }
 
