@@ -1,10 +1,11 @@
 
+let dropDown = document.getElementById('dropDown');
+dropDown.style.display = 'none';
 
 
 function menu() {
-
+    
     let navbar = document.getElementById('nav2Box');
-    let dropDown = document.getElementById('dropDown');
     let menu = document.getElementById('menu');
     let cut = document.getElementById('cut');
 

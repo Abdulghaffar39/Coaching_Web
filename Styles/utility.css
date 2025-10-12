@@ -90,6 +90,7 @@
     --color-cream: #FFF6D4;
     --color-green: #006012;
     --color-gray: #737373;
+    --color-border: #CACACA;
     --color-light-gray: #EAEAEA;
     --color-dark-blue: #046FA2;
     --color-blue: #006D86;
@@ -98,6 +99,10 @@
 
 .color--pure-white{
     color: var(--color--pure-white);
+}
+
+.color-border{
+    color: var(--color-border);
 }
 
 .color-blue{

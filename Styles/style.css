@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid white; */
+    border: 1px solid white;
 }
 
 
@@ -17,12 +17,22 @@ body {
 }
 
 /* ---------------------------- Home Header Started ----------------------------- */
+
 header {
 
     width: 100%;
     height: 746px;
+    margin-bottom: 10px;
     background: linear-gradient(248.24deg, #163E74 34.86%, #0078AA 99.26%);
     border-radius: 64px;
+}
+
+#header_otherPages {
+
+    width: 100%;
+    height: 126px;
+    background: transparent !important;
+    border-radius: 0px;
 }
 
 /* ---------------------------- home Navbar Started ----------------------------- */
@@ -62,6 +72,22 @@ header nav .parent_2 a:hover {
     font-size: 18px;
     transition: all 0.4s;
     color: var(--color-black);
+}
+
+#header_otherPages nav .parent_2 a {
+
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+#header_otherPages nav .parent_2 a:hover {
+
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: var(--color-gray);
 }
 
 header nav .parent_3 {
@@ -175,7 +201,6 @@ header nav .parent_3 button:hover {
     background-color: var(--color-yellow);
 }
 
-
 .Container_1 .parent_1 .buttons .view:hover {
 
     width: 147px;
@@ -189,7 +214,6 @@ header nav .parent_3 button:hover {
     border: 1px solid var(--color-yellow);
 }
 
-
 .Container_1 .parent_1 .buttons .About {
 
     width: 147px;
@@ -201,7 +225,6 @@ header nav .parent_3 button:hover {
     background-color: transparent;
     border: 1px solid var(--color-yellow);
 }
-
 
 .Container_1 .parent_1 .buttons .About:hover {
 
@@ -231,9 +254,212 @@ header nav .parent_3 button:hover {
 }
 
 /* ---------------------------- Home Container_1 Ended ----------------------------- */
-
 /* ---------------------------- Home Header ended ----------------------------- */
 
+
+/* ---------------------------- Home Benefits started ----------------------------- */
+
+main {
+
+    padding: 0px 100px;
+}
+
+main .Benefits {
+
+    width: 100%;
+    margin: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+main .Benefits .container_1 {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main .Benefits .container_1 .parent_1 {
+
+    width: 84px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -4%;
+    border-radius: 42px;
+    color: var(--bg-blue);
+    background-color: var(--color-cream);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main .Benefits .container_1 .parent_2 {
+
+    width: 40%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -4%;
+    color: var(--color-black);
+}
+
+main .Benefits .container_1 .parent_2 span {
+
+    color: var(--color-gray);
+}
+
+main .Benefits .container_1 .parent_3 {
+
+    width: 36%;
+    margin: 0 auto;
+}
+
+main .Benefits .container_1 .parent_3 p {
+
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: var(--color-gray);
+
+}
+
+
+main .Benefits .container_2 {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+main .Benefits .container_2 .parent_1 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+main .Benefits .container_2 .parent_1 .child_1 {
+
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+main .Benefits .container_2 div div div h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    color: var(--color-black);
+    text-transform: uppercase;
+
+}
+
+main .Benefits .container_2 div div div p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+
+}
+
+main .Benefits .container_2 .parent_1 .child_2 {
+
+    width: 38%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+
+}
+
+main .Benefits .container_2 .parent_1 .child_3 {
+
+    width: 25%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+
+main .Benefits .container_2 .parent_2 {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+
+main .Benefits .container_2 .parent_2 .child_1 {
+
+    width: 35%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+main .Benefits .container_2 .parent_2 .child_2 {
+
+    width: 23%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+
+}
+
+main .Benefits .container_2 .parent_2 .child_3 {
+
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+/* ---------------------------- Home Benefits ended ----------------------------- */
 
 @media (max-width: 1440px) {
 
@@ -331,6 +557,160 @@ header nav .parent_3 button:hover {
     /* ---------------------------- Home Container_1 Ended ----------------------------- */
 
     /* ---------------------------- Home Header Ended ----------------------------- */
+
+
+
+    /* ---------------------------- Home Benefits started ----------------------------- */
+
+    main {
+
+        padding: 0px 100px;
+    }
+
+    main .Benefits {
+
+        width: 100%;
+        margin: 50px 0px;
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 48px;
+    }
+
+    main .Benefits .container_1 {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+
+    main .Benefits .container_2 .parent_1 {
+
+        padding: 0px 0px;
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    main .Benefits .container_2 .parent_1 .child_1 {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 16px;
+    }
+
+    main .Benefits .container_2 .parent_1 .child_2 {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 16px;
+
+    }
+
+    main .Benefits .container_2 .parent_1 .child_3 {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 16px;
+    } 
+
+
+    main .Benefits .container_2 .parent_2 {
+
+        padding: 10px 0px;
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    main .Benefits .container_2 .parent_2 .child_1 {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 16px;
+    }
+
+    main .Benefits .container_2 .parent_2 .child_2 {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 16px;
+
+    }
+
+    main .Benefits .container_2 .parent_2 .child_3 {
+
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        gap: 16px;
+    }
+
+    main .Benefits .container_2 .parent_2 .block {
+
+        display: block;
+    }
+
+    main .Benefits .container_2 div div div h1 {
+
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -4%;
+        color: var(--color-black);
+        text-transform: uppercase;
+
+    }
+
+    main .Benefits .container_2 div div div p {
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 4%;
+        color: var(--color-gray);
+
+    }
+
+    /* ---------------------------- Home Benefits ended ----------------------------- */
+
+
 }
 
 
@@ -357,6 +737,7 @@ header nav .parent_3 button:hover {
 
 
     /* ---------------------------- Home Navbar 2 started ----------------------------- */
+
     header .nav2Box {
 
         border-radius: 56px 56px 0px 0px;
@@ -406,20 +787,20 @@ header nav .parent_3 button:hover {
     header .nav2Box .parent_2 {
 
         width: 100%;
-        height: 80px;
+        height: 140px;
 
         position: absolute;
         top: 118px;
 
 
         display: flex;
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-        gap: 20px;
+        gap: 40px;
 
-        display: none;
     }
+
 
     header .nav2Box .parent_2 .child_1 a {
 
@@ -427,6 +808,13 @@ header nav .parent_3 button:hover {
         font-weight: 400;
         text-decoration: none;
         color: var(--color-pure-white);
+    }
+
+    header .nav2Box .parent_2 .child_1 a:hover {
+
+        font-size: 18px;
+        transition: all 0.6s;
+        color: var(--color-black);
     }
 
     header .nav2Box .parent_2 .child_1 a:hover {
@@ -456,12 +844,10 @@ header nav .parent_3 button:hover {
 
     header .nav2Box .parent_2 .child_2 button:hover {
 
-        width: 100%;
-        height: 100%;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 700;
         border-style: none;
-        border-radius: 8px;
+        border-radius: 4px;
         transition: all 0.6s;
         border: 1px solid none;
         color: var(--color-dark-blue);
@@ -510,75 +896,186 @@ header nav .parent_3 button:hover {
 }
 
 
-@media (max-width: 768px) {
-
-    /* ---------------------------- Home Navbar 2 started ----------------------------- */
-
-    header .nav2Box .parent_1 {
-
-        gap: 100px;
-    }
-
-    header .nav2Box .parent_2 {
-
-        width: 100%;
-        height: 80px;
-    }
-
-    header .nav2Box .parent_2 .child_1 a {
-
-        font-size: 14px;
-    }
-
-
-    header .nav2Box .parent_2 .child_1 {
-
-        gap: 10px;
-    }
-
-    header .nav2Box .parent_2 .child_2 button {
-
-        width: 90px;
-        font-size: 13px;
-    }
-
-    /* ---------------------------- Home Navbar 2 Ended ----------------------------- */
-
-}
-
-
 @media (max-width: 425px) {
 
     /* ---------------------------- Home Navbar 2 started ----------------------------- */
 
+    header {
+
+        height: 770px;
+        border-radius: 26px;
+    }
+
+    header .nav2Box {
+
+        border-radius: 26px 26px 0px 0px;
+    }
+
     header .nav2Box .parent_1 {
 
         gap: 100px;
     }
 
+    header .nav2Box .parent_1 .child_1 img {
+
+        width: 70px;
+    }
+
     header .nav2Box .parent_2 {
 
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
         width: 100%;
-        height: 80px;
+        height: 250px;
+    }
+
+    header .nav2Box .parent_2 .child_1 {
+
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
     }
 
     header .nav2Box .parent_2 .child_1 a {
 
-        font-size: 14px;
+        font-size: 16px;
     }
 
 
-    header .nav2Box .parent_2 .child_1 {
+
+    header .nav2Box .parent_2 .child_2 button {
+
+        width: 150px;
+        font-size: 16px;
+        border-radius: 8px;
+    }
+
+    /* ---------------------------- Home Navbar 2 Ended ----------------------------- */
+
+
+    /* ---------------------------- Home Container_1 Started ----------------------------- */
+
+    .Container_1 {
+
+        height: 100%;
+        margin-top: 40px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        gap: 30px;
+    }
+
+    .Container_1 .parent_1 {
+
+        width: 98%;
+    }
+
+    .Container_1 .parent_1 h1 {
+
+        font-size: 34px;
+        line-height: 42.2px;
+        text-align: center;
+    }
+
+    .Container_1 .parent_1 p {
+
+        text-align: center;
+    }
+
+
+
+    .Container_1 .parent_1 {
 
         gap: 10px;
     }
 
-    header .nav2Box .parent_2 .child_2 button {
 
-        width: 90px;
-        font-size: 13px;
+    .Container_1 .parent_1 .buttons {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* ---------------------------- Home Navbar 2 Ended ----------------------------- */
+
+    .Container_1 .parent_1 .buttons .view {
+
+        width: 126px;
+        height: 48px;
+        font-size: 16px;
+        font-weight: 700;
+        border-style: none;
+        border-radius: 8px;
+        border: 1px solid none;
+        color: var(--color-dark-blue);
+        background-color: var(--color-yellow);
+    }
+
+
+    .Container_1 .parent_1 .buttons .view:hover {
+
+        width: 126px;
+        height: 48px;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 8px;
+        transition: all 0.6s;
+        color: var(--color-yellow);
+        background-color: transparent;
+        border: 1px solid var(--color-yellow);
+    }
+
+
+    .Container_1 .parent_1 .buttons .About {
+
+        width: 126px;
+        height: 48px;
+        font-size: 16px;
+        font-weight: 700;
+        border-radius: 8px;
+        color: var(--color-yellow);
+        background-color: transparent;
+        border: 1px solid var(--color-yellow);
+    }
+
+
+    .Container_1 .parent_1 .buttons .About:hover {
+
+        width: 126px;
+        height: 48px;
+        font-size: 18px;
+        font-weight: 700;
+        border-style: none;
+        border-radius: 8px;
+        transition: all 0.6s;
+        border: 1px solid none;
+        color: var(--color-dark-blue);
+        background-color: var(--color-yellow);
+    }
+
+
+
+    .Container_1 .parent_2 {
+
+        width: 100%;
+        height: 800px;
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Container_1 .parent_2 img {
+
+        border-radius: 0px;
+    }
+
+
+    /* ---------------------------- Home Container_1 Ended ----------------------------- */
+
 
 }
