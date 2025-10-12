@@ -931,6 +931,19 @@ main .testimonials .container_2 .parent_2 .child_3 .students p {
 
 /* ---------------------------- Home testimonials ended ----------------------------- */
 
+
+/* ---------------------------- Home Footer started ----------------------------- */
+
+footer{
+
+    width: 100%;
+    height: 197px;
+    border-radius: 48px 48px 0px 0px;
+    background: linear-gradient(248.24deg, #163E74 34.86%, #0078AA 99.26%);
+}
+
+/* ---------------------------- Home Footer ended ----------------------------- */
+
 @media (max-width: 1440px) {
 
     /* ---------------------------- Home Container_1 Started ----------------------------- */
