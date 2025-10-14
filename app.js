@@ -36,8 +36,17 @@ function cut() {
 }
 
 function result() {
-
-    let result = document.getElementById('result');
-    
+        
     window.location.href = 'result.html'
 }
+
+function back() {
+        
+    window.location.href = 'index.html'
+}
+
+function about() {
+        
+    window.location.href = 'about.html'
+}
+
