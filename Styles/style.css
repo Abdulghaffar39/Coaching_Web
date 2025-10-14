@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -1001,6 +1001,11 @@ footer .container_1 .parent_3 p {
     color: var(--color-white);
 }
 
+footer .container_1 .parent_2 a br {
+
+    display: none;
+}
+
 /* ---------------------------- Home Footer ended ----------------------------- */
 
 
@@ -1069,11 +1074,14 @@ main .contact_cont_2 {
     width: 100%;
     height: 416;
     padding: 24px;
+    margin: 40px 0px;
     border-radius: 16px;
     background-color: var(--color-pure-white);
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 30px;
 }
 
 main .contact_cont_2 .parent_1 {
@@ -1113,12 +1121,25 @@ main .contact_cont_2 .parent_1 .child_2 {
 
 main .contact_cont_2 .parent_1 .child_2 a {
 
-    width: 38px;
+    width: 50px;
+
+    text-decoration: none;
 }
 
-main .contact_cont_2 .parent_1 .child_2 a img {
+main .contact_cont_2 .parent_1 .child_2 a i {
 
     width: 100%;
+    padding: 6px;
+    font-size: 30px;
+    border-radius: 8px;
+    /* color: var(); */
+    /* text-decoration: none; */
+    background-color: var(--bg-cream);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main .contact_cont_2 .parent_2 a {
@@ -1139,10 +1160,396 @@ main .contact_cont_2 .parent_2 a p {
 main .contact_cont_2 .parent_3 {
 
     width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    gap: 50px;
+}
+
+main .contact_cont_2 .parent_3 .child_1 {
+
+    width: 60%;
+}
+
+main .contact_cont_2 .parent_3 .child_1 iframe {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+
+main .contact_cont_2 .parent_3 .child_2 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 8px;
+}
+
+main .contact_cont_2 .parent_3 .child_2 div {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 8px;
+}
+
+main .contact_cont_2 .parent_3 .child_2 div h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+main .contact_cont_2 .parent_3 .child_2 div a {
+
+    text-decoration: none;
+    color: var(--color-gray);
+}
+
+main .contact_cont_2 .parent_3 .child_2 div a p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-transform: capitalize;
+}
+
+main .contact_cont_2 .parent_3 .child_2 {
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+main .contact_cont_2 .parent_3 .child_2 div h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    color: var(--color-black);
+}
+
+main .contact_cont_2 .parent_3 .child_2 div a {
+
+    text-decoration: none;
+    color: var(--color-gray);
+}
+
+main .contact_cont_2 .parent_3 .child_2 div a p {
+
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 4%;
+
+}
+
+main .contact_cont_2 .parent_3 .child_2 div a p br {
+
+    display: none;
+}
+
+main .contact_cont_2 .parent_3 .child_2 div a .email {
+
+    text-transform: none;
+
+}
+
+main .contact_cont_2 .parent_3 .child_2 div a p:hover {
+
+    text-decoration: underline var(--color-blue);
+    color: var(--color-blue);
+
 }
 
 
 /* ---------------------------- contact main ended ----------------------------- */
+
+/* ---------------------------- about main started ----------------------------- */
+
+
+main .about_cont_1 {
+
+    width: 100%;
+    margin: 60px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+main .about_cont_1 .parent_1 {
+
+    width: 108px;
+    height: 41px;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -4%;
+    border-radius: 42px;
+    text-transform: uppercase;
+    color: var(--color-blue);
+    background-color: var(--bg-cream);
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .about_cont_1 .parent_2 {
+
+    margin: 0px;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 67.2px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+    color: var(--color-black);
+
+}
+
+main .about_cont_1 .parent_2 span {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 56px;
+    line-height: 67.2px;
+    letter-spacing: -4%;
+    text-transform: uppercase;
+    color: var(--color-gray);
+
+}
+
+
+main .about_cont_2 {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+
+    margin: 60px 0px;
+}
+
+main .about_cont_2 .parent_1 {
+
+    width: 50%;
+    height: 506px;
+    overflow: hidden;
+    border-radius: 24px;
+    transform: rotate(-4.39deg);
+}
+
+main .about_cont_2 .parent_1 img {
+
+    width: 100%;
+    height: 100%;
+    border-radius: 24px;
+}
+
+main .about_cont_2 .parent_2 {
+
+    width: 50%;
+    height: 506px;
+    padding: 20px;
+    border-radius: 24px;
+    transform: rotate(2.12deg);
+    border: 1px solid black;
+    background-color: var(--bg-pure-white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .about_cont_2 .parent_2 h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 36px;
+    letter-spacing: 4%;
+    text-transform: uppercase;
+    color: var(--color-gray);
+}
+
+main .about_cont_2 .parent_2 p {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 4%;
+    line-height: 40px;
+    vertical-align: bottom;
+    color: var(--color-black);
+}
+
+
+/* ---------------------------- Home Benefits started ----------------------------- */
+
+main .ourValues {
+
+    width: 100%;
+    margin: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+main .ourValues .container_1 {
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+main .ourValues .container_1 .parent_1 {
+
+    width: 110px;
+    height: 41px;
+    font-size: 14px;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -4%;
+    border-radius: 42px;
+    color: var(--bg-blue);
+    text-transform: uppercase;
+    background-color: var(--color-cream);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+main .ourValues .container_1 .parent_2 {
+
+    width: 100%;
+    margin: 0 auto;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: Bold;
+    line-height: 48px;
+    text-align: center;
+    letter-spacing: -4%;
+    color: var(--color-black);
+}
+
+main .ourValues .container_1 .parent_2 span {
+
+    color: var(--color-gray);
+}
+
+main .ourValues .container_1 .parent_3 {
+
+    width: 100%;
+    margin: 0 auto;
+}
+
+main .ourValues .container_1 .parent_3 p {
+
+    margin: 0 auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: var(--color-gray);
+
+}
+
+main .ourValues .container_2 .parent_1 {
+
+    padding: 10px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+main .ourValues .container_2 .parent_1 .child_1 {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+main .ourValues .container_2 div div div h1 {
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    color: var(--color-black);
+    text-transform: uppercase;
+
+}
+
+main .ourValues .container_2 div div div p {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    color: var(--color-gray);
+
+}
+
+main .ourValues .container_2 .parent_1 .child_2 {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+
+}
+
+main .ourValues .container_2 .parent_1 .child_3 {
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 16px;
+}
+
+/* ---------------------------- Home Benefits ended ----------------------------- */
+
+
+/* ---------------------------- about main ended ----------------------------- */
 
 @media (max-width: 1440px) {
 
@@ -1646,6 +2053,54 @@ main .contact_cont_2 .parent_3 {
 
 
 
+    /* ---------------------------- about main ended ----------------------------- */
+
+
+    main .about_cont_2 {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+
+        margin: 60px 0px;
+    }
+
+    main .about_cont_2 .parent_1 {
+
+        width: 50%;
+    }
+
+    main .about_cont_2 .parent_2 {
+
+        width: 50%;
+    }
+
+    main .about_cont_2 .parent_2 p {
+
+        line-height: 24px;
+    }
+
+    /* ---------------------------- about main ended ----------------------------- */
+
+
+
+    /* ---------------------------- Home Benefits started ----------------------------- */
+
+
+    main .ourValues .container_2 .parent_1 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 54px;
+    }
+
+    /* ---------------------------- Home Benefits ended ----------------------------- */
+
+
+
 }
 
 
@@ -1850,6 +2305,172 @@ main .contact_cont_2 .parent_3 {
 
 
     /* ---------------------------- Home main Ended ----------------------------- */
+
+
+
+
+    /* ---------------------------- contact main ended ----------------------------- */
+
+    main .contact_cont_1 {
+
+        width: 100%;
+        margin: 40px 0px;
+        padding-left: 22px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        gap: 16px;
+    }
+
+    main .contact_cont_2 .parent_1 .child_2 {
+
+        gap: 10px;
+    }
+
+    main .contact_cont_2 .parent_3 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    main .contact_cont_2 .parent_3 .child_1 {
+
+        width: 100%;
+        height: 350px;
+    }
+
+    main .contact_cont_2 .parent_3 .child_1 iframe {
+
+        border-radius: 8px;
+    }
+
+    /* ---------------------------- contact main ended ----------------------------- */
+
+
+    /* ---------------------------- about main ended ----------------------------- */
+
+
+
+    main .about_cont_1 {
+
+        padding-left: 15px;
+    }
+
+    main .about_cont_1 .parent_2 {
+
+        font-size: 36px;
+        line-height: 57.2px;
+
+    }
+
+    main .about_cont_1 .parent_2 span {
+
+        font-size: 36px;
+        line-height: 57.2px;
+    }
+
+
+
+
+    main .about_cont_2 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 11px;
+
+        margin: 60px 0px;
+    }
+
+    main .about_cont_2 .parent_1 {
+
+        width: 100%;
+        height: 100%;
+        transform: none;
+    }
+
+    main .about_cont_2 .parent_2 {
+
+        width: 100%;
+        height: 100%;
+        transform: none;
+    }
+
+    main .about_cont_2 .parent_2 p {
+
+        line-height: 24px;
+    }
+
+    /* ---------------------------- about main ended ----------------------------- */
+
+
+
+}
+
+
+@media (max-width: 550px) {
+
+    /* ---------------------------- contact main ended ----------------------------- */
+
+
+    main .contact_cont_2 .parent_1 {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+        gap: 30px;
+    }
+
+    /* ---------------------------- contact main ended ----------------------------- */
+
+
+    /* ---------------------------- contact footer started ----------------------------- */
+    footer .container_1 .parent_1 {
+
+        gap: 30px;
+    }
+
+
+    footer .container_1 .parent_2 a br {
+
+        display: block;
+    }
+
+    /* ---------------------------- contact footer ended ----------------------------- */
+
+
+    /* ---------------------------- about main started ----------------------------- */
+
+
+    main .about_cont_1 .parent_2 {
+
+        font-size: 32px;
+        line-height: 57.2px;
+
+    }
+
+    main .about_cont_1 .parent_2 span {
+
+        font-size: 32px;
+        line-height: 57.2px;
+
+    }
+
+    main .about_cont_1 .parent_2 br {
+
+        display: none;
+    }
+
+
+    /* ---------------------------- about main ended ----------------------------- */
+
+
+
 }
 
 
@@ -2047,15 +2668,11 @@ main .contact_cont_2 .parent_3 {
         padding: 10px 10px;
     }
 
-
-
     main .testimonials .container_2 .parent_1 .child_2 {
 
         height: 180px;
         padding: 10px 10px;
     }
-
-
 
     main .testimonials .container_2 .parent_1 .child_3 {
 
@@ -2071,14 +2688,11 @@ main .contact_cont_2 .parent_3 {
         padding: 10px;
     }
 
-
-
     main .testimonials .container_2 .parent_2 .child_2 {
 
         height: 280px;
         padding: 10px 10px;
     }
-
 
     main .testimonials .container_2 .parent_2 .child_3 {
 
@@ -2131,13 +2745,57 @@ main .contact_cont_2 .parent_3 {
         text-align: start;
     }
 
-    /* 
-    footer .container_1 .parent_3 p{
+    /* ---------------------------- Home footer ended ----------------------------- */
+
+
+    /* ---------------------------- contact main started ----------------------------- */
+
+    main .contact_cont_1 .parent_2 {
 
         margin: 0px;
-    } */
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 46px;
+        line-height: 67.2px;
+        letter-spacing: -4%;
+        text-transform: uppercase;
+        color: var(--color-black);
 
-    /* ---------------------------- Home footer ended ----------------------------- */
+    }
+
+    main .contact_cont_1 .parent_2 span {
+
+        font-weight: 700;
+        font-style: Bold;
+        font-size: 46px;
+        line-height: 67.2px;
+        letter-spacing: -4%;
+        text-transform: uppercase;
+        color: var(--color-gray);
+
+    }
+
+    main .contact_cont_2 .parent_3 .child_2 div a p br {
+
+        display: block;
+
+    }
+
+    /* ---------------------------- contact main ended ----------------------------- */
+
+    
+    /* ---------------------------- Home Benefits started ----------------------------- */
+
+
+    main .ourValues .container_2 .parent_1 {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 24px;
+    }
+
+    /* ---------------------------- Home Benefits ended ----------------------------- */
 
 
 }

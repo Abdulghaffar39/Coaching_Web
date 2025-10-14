@@ -34,3 +34,10 @@ function cut() {
     // console.log('alsdjfolsdjkfl');
     
 }
+
+function result() {
+
+    let result = document.getElementById('result');
+    
+    window.location.href = 'result.html'
+}
