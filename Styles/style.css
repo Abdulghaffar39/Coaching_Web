@@ -2539,12 +2539,12 @@ main .result h1 {
     header {
 
         height: 800px;
-        border-radius: 26px;
+        border-radius: 0px;
     }
 
     header .nav2Box {
 
-        border-radius: 26px 26px 0px 0px;
+        border-radius: 0px;
     }
 
     header .nav2Box .parent_1 {
@@ -2556,6 +2556,7 @@ main .result h1 {
 
         width: 70px;
     }
+
 
     header .nav2Box .parent_2 {
 
@@ -2854,7 +2855,7 @@ main .result h1 {
     }
 
     /* ---------------------------- Home Benefits ended ----------------------------- */
-    
+
 
     /* ---------------------------- result main ended ----------------------------- */
 
