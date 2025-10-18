@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
@@ -1562,7 +1562,7 @@ main .ourValues .container_2 .parent_1 .child_3 {
 
 .result {
 
-    width: 95%;
+    width: 85%;
     height: 520px;
     margin: 60px auto;
     border-radius: 30px;
@@ -2413,6 +2413,13 @@ main .result h1 {
     main .about_cont_1 {
 
         padding-left: 15px;
+    }
+
+    main .about_cont_1 .parent_2 {
+
+        font-size: 36px;
+        line-height: 57.2px;
+
     }
 
     main .about_cont_1 .parent_2 {
