@@ -4,7 +4,7 @@ dropDown.style.display = 'none';
 
 
 function menu() {
-    
+
     let navbar = document.getElementById('nav2Box');
     let menu = document.getElementById('menu');
     let cut = document.getElementById('cut');
@@ -16,7 +16,7 @@ function menu() {
     cut.style.display = 'block';
 
     // console.log('alsdjfolsdjkfl');
-    
+
 }
 
 function cut() {
@@ -32,21 +32,38 @@ function cut() {
     cut.style.display = 'none';
 
     // console.log('alsdjfolsdjkfl');
-    
+
 }
 
-function result() {
-        
+function viewResult() {
+
     window.location.href = 'result.html'
 }
 
 function back() {
-        
+
     window.location.href = 'index.html'
 }
 
 function about() {
-        
+
     window.location.href = 'about.html'
 }
 
+const boxes = document.querySelectorAll('.box');
+
+window.addEventListener('scroll', checkBoxes);
+
+function checkBoxes() {
+    const triggerBottom = window.innerHeight * 0.8;
+
+    boxes.forEach(box => {
+        const boxTop = box.getBoundingClientRect().top;
+
+        if (boxTop < triggerBottom) {
+            box.classList.add('show');
+        } else {
+            box.classList.remove('show');
+        }
+    });
+}

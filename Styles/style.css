@@ -3,12 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid black; */
+    border: 1px solid black;
 }
 
 
 body {
-
+    
     font-family: "inter";
     font-size: 62.5%;
 
@@ -1576,9 +1576,7 @@ main .ourValues .container_2 .parent_1 .child_3 {
 
 main .result h1 {
 
-    width: 100%;
-    height: 100%;
-    font-size: 60px;
+    font-size: 50px;
     color: var(--color-blue);
 
     display: flex;
@@ -2466,6 +2464,16 @@ main .result h1 {
     /* ---------------------------- about main ended ----------------------------- */
 
 
+    /* ---------------------------- index header started ----------------------------- */
+
+    #homeIndex{
+
+        border-radius: 32px 32px 0px 0px;
+    }
+
+    /* ---------------------------- index header ended ----------------------------- */
+
+
 
 }
 
@@ -2526,6 +2534,109 @@ main .result h1 {
 
 
     /* ---------------------------- about main ended ----------------------------- */
+
+
+    /* ---------------------------- testimonilas main started ----------------------------- */
+
+
+    /* ---------------------------- Testimonilas main ended ----------------------------- */
+
+    main .testimonials .container_2 .parent_1 .child_1 {
+
+        height: 250px;
+        padding: 0px 10px;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_3 {
+
+        height: 250px;
+        padding: 0px 10px;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_2 {
+
+        height: 250px;
+        padding: 0px 10px;
+    }
+
+
+    main .testimonials .container_2 .parent_1 .child_2 {
+
+        height: 120px;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_2 .Passing {
+
+        display: flex;
+        justify-content: center;
+
+        padding: 10px 10px;
+        height: 100%;
+    }
+
+    main .testimonials .container_2 .parent_1 .child_2 .Passing p {
+
+        margin: 0;
+        line-height: 18px;
+    }
+
+
+    main .testimonials .container_2 .parent_2 .child_1 {
+
+        height: 120px;
+    }
+
+
+    main .testimonials .container_2 .parent_2 .child_1 .Experienced {
+
+        display: flex;
+        justify-content: center;
+
+        padding: 10px 10px;
+        height: 100%;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_1 .Experienced p {
+
+        margin: 0;
+        line-height: 18px;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_3 {
+
+        height: 120px;
+    }
+
+
+    main .testimonials .container_2 .parent_2 .child_3 .students {
+
+        display: flex;
+        justify-content: center;
+
+        padding: 10px 10px;
+        height: 100%;
+    }
+
+    main .testimonials .container_2 .parent_2 .child_3 .students p {
+
+        margin: 0;
+        line-height: 18px;
+    }
+
+    /* ---------------------------- index testimonilas started ----------------------------- */
+
+
+    /* ---------------------------- index testimonilas ended ----------------------------- */
+
+
+    /* ---------------------------- footer started ----------------------------- */
+
+    footer .container_1{
+
+        gap: 20px;
+    }
+
+    /* ---------------------------- footer ended ----------------------------- */
 
 
 
